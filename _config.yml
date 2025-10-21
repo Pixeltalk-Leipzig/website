@@ -28,7 +28,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pixeltalk.io" # the base hostname & protocol for your site, e.g. http://example.com
 url_subnav_signal: "https://signal.group/#CjQKIDbTfUYmRkmbXcUgmYd4pkv1EOSoT416FxAkJy60yZrJEhCaTd-P8J5Xd8WxQVEF-vxn"
 url_subnav_github: "https://github.com/Pixeltalk-Leipzig/website/discussions"
-url_subnav_linkedin: "https://www.linkedin.com/events/7364571073738121217/"
+url_subnav_linkedin: "https://www.linkedin.com/events/pixeltalk-15-gsap-animationimwe7386300742870990849/"
 url_subnav_betterplace: "https://www.goodcrowd.org/pixeltalk-unser-meetup-2026-moeglich-zu-machen"
 
 date_idx: 15
