@@ -32,11 +32,11 @@ url_subnav_linkedin: "https://www.linkedin.com/events/7364571073738121217/"
 url_subnav_betterplace: "https://www.goodcrowd.org/pixeltalk-unser-meetup-2026-moeglich-zu-machen"
 
 date_idx: 15
-date_next: Mi 24.9. 19:00
+date_next: Mi 29.10. 19:00
 date_place: Basislager
 date_place_url: https://basislager.co
-date_title: In Planung
-date_desc: 
+date_title: GSAP & Animationen im Web
+date_desc: Annekathrin (<a href="https://www.scheinundsein.de/" target="_blank" rel="noopener">Schein & Sein</a>, Leipzig) wird uns von ihren Erfahrungen bei der Umsetzung von Animationen mit <a href="https://gsap.com/" target="_blank" rel="noopener">GSAP</a> berichten. Anschließend sind alle eingeladen, ihre Erfahrungen zu teilen, zu diskutieren und Fragen zu stellen.
 
 collections:
   meetups:
