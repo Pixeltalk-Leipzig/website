@@ -28,15 +28,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pixeltalk.io" # the base hostname & protocol for your site, e.g. http://example.com
 url_subnav_signal: "https://signal.group/#CjQKIDbTfUYmRkmbXcUgmYd4pkv1EOSoT416FxAkJy60yZrJEhCaTd-P8J5Xd8WxQVEF-vxn"
 url_subnav_github: "https://github.com/Pixeltalk-Leipzig/website/discussions"
-url_subnav_linkedin: "https://www.linkedin.com/events/pixeltalk-15-gsap-animationimwe7386300742870990849/"
+url_subnav_linkedin: "https://www.linkedin.com/events/7396496233403535361/"
 url_subnav_betterplace: "https://www.goodcrowd.org/pixeltalk-unser-meetup-2026-moeglich-zu-machen"
 
-date_idx: 15
-date_next: Mi 29.10. 19:00
+date_idx: 16
+date_next: Mi 26.11. 19:00
 date_place: Basislager
 date_place_url: https://basislager.co
-date_title: GSAP & Animationen im Web
-date_desc: Annekathrin (<a href="https://www.scheinundsein.de/" target="_blank" rel="noopener">Schein & Sein</a>, Leipzig) wird uns von ihren Erfahrungen bei der Umsetzung von Animationen mit <a href="https://gsap.com/" target="_blank" rel="noopener">GSAP</a> berichten. Anschließend sind alle eingeladen, ihre Erfahrungen zu teilen, zu diskutieren und Fragen zu stellen.
+date_title: Workflow & Organisation
+date_desc: Wie organisiert ihr euren Agenturalltag? Projekte, Deadlines, Meetings, Dokumentation – und alles soll übersichtlich bleiben? Christian (<a href="https://www.scheinundsein.de/" target="_blank" rel="noopener">Schein & Sein</a>, Leipzig) gibt einen praxisnahen Einblick in seine Arbeit mit Notion und zeigt, wie er damit den Agenturalltag strukturiert.
 
 collections:
   meetups:
