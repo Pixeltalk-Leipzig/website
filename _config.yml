@@ -31,12 +31,12 @@ url_subnav_github: "https://github.com/Pixeltalk-Leipzig/website/discussions"
 url_subnav_linkedin: "https://www.linkedin.com/events/7396496233403535361/"
 url_subnav_betterplace: "https://www.goodcrowd.org/pixeltalk-unser-meetup-2026-moeglich-zu-machen"
 
-date_idx: 16
-date_next: Mi 26.11. 19:00
+date_idx: 17
+date_next: Mi 28.1. 19:00
 date_place: Basislager
 date_place_url: https://basislager.co
-date_title: Workflow & Organisation
-date_desc: Wie organisiert ihr euren Agenturalltag? Projekte, Deadlines, Meetings, Dokumentation – und alles soll übersichtlich bleiben? Christian (<a href="https://www.scheinundsein.de/" target="_blank" rel="noopener">Schein & Sein</a>, Leipzig) gibt einen praxisnahen Einblick in seine Arbeit mit Notion und zeigt, wie er damit den Agenturalltag strukturiert.
+date_title: 20 Jahre jQuery – Zeigt eure ältesten Projekte
+date_desc: Wir feiern 20 Jahre jQuery und werfen einen Blick auf einige unserer älteren, aber noch aktiven Projekte. Kommt gern vorbei, um mit uns in Erinnerungen zu schwelgen! Aber auch für die aktuellen Trends, um ins neue Jahr zu starten, ist Zeit.
 
 collections:
   meetups:
