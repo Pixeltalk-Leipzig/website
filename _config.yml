@@ -28,15 +28,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pixeltalk.io" # the base hostname & protocol for your site, e.g. http://example.com
 url_subnav_signal: "https://signal.group/#CjQKIDbTfUYmRkmbXcUgmYd4pkv1EOSoT416FxAkJy60yZrJEhCaTd-P8J5Xd8WxQVEF-vxn"
 url_subnav_github: "https://github.com/Pixeltalk-Leipzig/website/discussions"
-url_subnav_linkedin: "https://www.linkedin.com/events/7396496233403535361/"
+url_subnav_linkedin: "https://www.linkedin.com/events/pixeltalk-177431616570138705920"
 url_subnav_betterplace: "https://www.goodcrowd.org/pixeltalk-unser-meetup-2026-moeglich-zu-machen"
 
 date_idx: 17
-date_next: <s class="strike">Mi 28.1. 19:00</s>
+date_next: <s class="strike">Mi 25.2. 19:00</s>
 date_place: Basislager
 date_place_url: https://basislager.co
-date_title: <span class="dib white ph2 mr3 bg-red-5 br3">Abgesagt</span> <s class="strike">20 Jahre jQuery – Zeigt eure ältesten Projekte</s>
-date_desc: Wir feiern 20 Jahre jQuery und werfen einen Blick auf einige unserer älteren, aber noch aktiven Projekte. Kommt gern vorbei, um mit uns in Erinnerungen zu schwelgen! Aber auch für die aktuellen Trends, um ins neue Jahr zu starten, ist Zeit.
+date_title: Offene Themen Runde
+date_desc: Beim Pixeltalk #17 kommen wir einfach zusammen und reden über das, was euch gerade wirklich im Web beschäftigt.
 
 collections:
   meetups:
