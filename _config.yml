@@ -31,12 +31,12 @@ url_subnav_github: "https://github.com/Pixeltalk-Leipzig/website/discussions"
 url_subnav_linkedin: "https://www.linkedin.com/events/7451953509756715009/"
 url_subnav_betterplace: "https://www.goodcrowd.org/pixeltalk-unser-meetup-2026-moeglich-zu-machen"
 
-date_idx: 18
-date_next: Mi 29.4. 19:00
+date_idx: 19
+date_next: Mi 25.6. 19:00
 date_place: Basislager
 date_place_url: https://basislager.co
-date_title: WooCommerce & WordPress 7
-date_desc: "WooCommerce mit <a href=\"https://www.thomaszwirner.de\">Thomas Zwirner</a>: Was steckt wirklich in diesem Shop-System? Stärken und Schwächen aus der Praxis – Möglichkeiten und Grenzen. Außerdem: Neue Features, wichtige Änderungen und was das bevorstehende Major Release WordPress 7 bedeutet."
+date_title: AI Agents & lokale KI-Stacks
+date_desc: "Martin von <a href=\"https://robole.de\">Robole</a> zeigt seinen lokalen AI-Stack aus der Praxis: ollama, omlx, llmfit, Opencode/Claude Code und Raycast. Im zweiten Teil diskutieren wir gemeinsam über die aktuelle Entwicklung in der KI-Toollandschaft: Preiserhöhungen und intransparente Abrechnungsmodelle. Welche Alternativen taugen wirklich?"
 
 collections:
   meetups:
