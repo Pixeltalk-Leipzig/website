@@ -28,15 +28,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pixeltalk.io" # the base hostname & protocol for your site, e.g. http://example.com
 url_subnav_signal: "https://signal.group/#CjQKIDbTfUYmRkmbXcUgmYd4pkv1EOSoT416FxAkJy60yZrJEhCaTd-P8J5Xd8WxQVEF-vxn"
 url_subnav_github: "https://github.com/Pixeltalk-Leipzig/website/discussions"
-url_subnav_linkedin: "https://www.linkedin.com/events/pixeltalk-19-aiagents-lokaleki-7474548666188476417/"
+url_subnav_linkedin: "https://www.linkedin.com/events/7495458932635881473/"
 url_subnav_betterplace: "https://www.goodcrowd.org/pixeltalk-unser-meetup-2026-moeglich-zu-machen"
 
-date_idx: 19
-date_next: Mi 25.6. 19:00
-date_place: Basislager
-date_place_url: https://basislager.co
-date_title: AI Agents & lokale KI-Stacks
-date_desc: "Martin von <a href=\"https://robole.de\">Robole</a> zeigt seinen lokalen AI-Stack aus der Praxis: ollama, omlx, llmfit, Opencode/Claude Code und Raycast. Im zweiten Teil diskutieren wir gemeinsam über die aktuelle Entwicklung in der KI-Toollandschaft: Preiserhöhungen und intransparente Abrechnungsmodelle. Welche Alternativen taugen wirklich?"
+date_idx: 20
+date_next: Mi 26.8. 19:00
+date_place: die superpixel
+date_place_url: https://www.diesuperpixel.de/
+date_title: Visuelle Regressionstests mit BackstopJS
+date_desc: "<a href=\"https://kiessling.tech\">Andreas Kießling</a>, Freelance Webdeveloper aus Leipzig, gibt Einblick in sein BackstopJS-Setup für visuelle Regressionstests: Konfiguration, Docker und Automatisierung. Außerdem geht's um typische Stolperfallen wie Lazy Loading, Cookies und unterschiedliche Seitenzustände – und wie eure Screenshots wirklich stabil und reproduzierbar werden."
 
 collections:
   meetups:
