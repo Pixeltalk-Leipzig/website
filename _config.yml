@@ -28,15 +28,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pixeltalk.io" # the base hostname & protocol for your site, e.g. http://example.com
 url_subnav_signal: "https://signal.group/#CjQKIDbTfUYmRkmbXcUgmYd4pkv1EOSoT416FxAkJy60yZrJEhCaTd-P8J5Xd8WxQVEF-vxn"
 url_subnav_github: "https://github.com/Pixeltalk-Leipzig/website/discussions"
-url_subnav_linkedin: "https://www.linkedin.com/events/pixeltalk-15-gsap-animationimwe7386300742870990849/"
+url_subnav_linkedin: "https://www.linkedin.com/events/7495458932635881473/"
 url_subnav_betterplace: "https://www.goodcrowd.org/pixeltalk-unser-meetup-2026-moeglich-zu-machen"
 
-date_idx: 15
-date_next: Mi 29.10. 19:00
-date_place: Basislager
-date_place_url: https://basislager.co
-date_title: GSAP & Animationen im Web
-date_desc: Annekathrin (<a href="https://www.scheinundsein.de/" target="_blank" rel="noopener">Schein & Sein</a>, Leipzig) wird uns von ihren Erfahrungen bei der Umsetzung von Animationen mit <a href="https://gsap.com/" target="_blank" rel="noopener">GSAP</a> berichten. Anschließend sind alle eingeladen, ihre Erfahrungen zu teilen, zu diskutieren und Fragen zu stellen.
+date_idx: 20
+date_next: Mi 26.8. 19:00
+date_place: die superpixel
+date_place_url: https://www.diesuperpixel.de/
+date_title: Visuelle Regressionstests mit BackstopJS
+date_desc: "<a href=\"https://kiessling.tech\">Andreas Kießling</a>, Freelance Webdeveloper aus Leipzig, gibt Einblick in sein BackstopJS-Setup für visuelle Regressionstests: Konfiguration, Docker und Automatisierung. Außerdem geht's um typische Stolperfallen wie Lazy Loading, Cookies und unterschiedliche Seitenzustände – und wie eure Screenshots wirklich stabil und reproduzierbar werden."
 
 collections:
   meetups:
