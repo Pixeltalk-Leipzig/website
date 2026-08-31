@@ -22,8 +22,7 @@ title: Pixeltalk Leipzig
 description: Ein offenes Meetup zu allen Webthemen in Leipzig.
 introtext: >- # this means to ignore newlines until "baseurl:"
     Von der Konzeption über die Gestaltung bis hin zur
-    technischen Umsetzung und darüber hinaus. Jeden letzten
-    Mittwoch im Monat.
+    technischen Umsetzung und darüber hinaus.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pixeltalk.io" # the base hostname & protocol for your site, e.g. http://example.com
 url_subnav_signal: "https://signal.group/#CjQKIDbTfUYmRkmbXcUgmYd4pkv1EOSoT416FxAkJy60yZrJEhCaTd-P8J5Xd8WxQVEF-vxn"
