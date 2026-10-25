@@ -7,3 +7,4 @@ vendor
 /Gemfile.lock
 /.nova
 /.DS_Store
+/.vscode
