@@ -181,10 +181,9 @@
             popover
         >
             <h2 class="f3 f4-m lh-title b mt4">
-                <span class="db green-4">{{ site.date_title }}</span>
-                Pixeltalk #{{ site.date_idx }}
-                am {{ site.date_next }}
-                im <a href="{{ site.date_place_url }}" target="_blank" class="underline">{{ site.date_place }}</a>
+                <span class="green-4">{{ site.date_title }}</span> — Pixeltalk #{{ site.date_idx }}
+                <span class="db">{{ site.date_next }}</span>
+                Ort: <a href="{{ site.date_place_url }}" target="_blank" class="underline">{{ site.date_place }}</a>
             </h2>
             <div class="richtext f1 f3-m">
                 {{ site.date_desc }}
