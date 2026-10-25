@@ -27,10 +27,27 @@
                 --fontname: "Syne", sans-serif;
 
                 --typo-5: 3rem;
+                --yellow-10: #f8ff00;
+            }
+
+            .br5 {
+                border-radius: 5rem;
+            }
+
+            .glass {
+                background-color: rgb(255 255 255 / 0.35);
+                border: 1px solid rgb(255 255 255 / 0.6);
+                box-shadow: 0 0.5rem 2rem rgb(0 0 0 / 0.1), inset 0 1px 0 rgb(255 255 255 / 0.7);
+                backdrop-filter: blur(1rem) saturate(1.5);
             }
             
             .eyes:hover {
                 cursor: url("cursor.svg") 10 10, default;
+            }
+
+            .eyes .pupils {
+                --eyes-top: -20%;
+                --eyes-left: 0%;
             }
 
             .eyes__hover--1:hover ~ .icon .eyes .pupils {
@@ -82,20 +99,20 @@
         x-data
         class="curlyframework dg cols-12 bg"
         style="
-            background-color: #8ec5fc;
-            background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+            background-color: #f8ff00;
+            background-image: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
         "
     >
-        <nav class="fixed top-0 left-0 z-1">
-            <ul class="list flex g3 p0 m3">
+        <nav class="fixed left-0 right-0 bottom-0 z-1 flex justify-center g1 f4-m m3">
+            <ul class="list dc">
                 <li>
-                    <a href="#info" class="db lh-copy ph3 pv1 bg-white br5"> Info </a>
+                    <a href="#info" class="db lh-copy ph3 pv1 glass br6"> Info </a>
                 </li>
                 <li>
-                    <a href="#archiv" class="db lh-copy ph3 pv1 bg-white br5"> Rückblick </a>
+                    <a href="#archiv" class="db lh-copy ph3 pv1 glass br6"> Rückblick </a>
                 </li>
                 <li>
-                    <button popovertarget="subnav" class="pointer db lh-copy ph3 pv1 bg-white bn br5"> Austausch </button>
+                    <button popovertarget="subnav" class="pointer db lh-copy ph3 pv1 glass br6"> Austausch </button>
                 </li>
             </ul>
         </nav>
@@ -108,7 +125,7 @@
             <ul class="list flex flex-column g4 lh-title p0 m0">
                 <li>
                     <a href="{{ site.url_subnav_signal }}" target="_blank" class="db">
-                        <span class="db f4 b blue-4">
+                        <span class="db f4 b green-4">
                             <span class="underline">Chat</span>
                             <span aria-hidden="true">👋</span>
                         </span>
@@ -117,7 +134,7 @@
                 </li>
                 <li>
                     <a href="{{ site.url_subnav_github }}" target="_blank" class="db">
-                        <span class="db f4 b blue-4">
+                        <span class="db f4 b green-4">
                             <span class="underline">Discussions</span>
                             <span aria-hidden="true">💬</span>
                         </span>
@@ -126,7 +143,7 @@
                 </li>
                 <li>
                     <a href="{{ site.url_subnav_linkedin }}" target="_blank" class="db">
-                        <span class="db f4 b blue-4">
+                        <span class="db f4 b green-4">
                             <span class="underline">Social</span>
                             <span aria-hidden="true">📅</span>
                         </span>
@@ -135,7 +152,7 @@
                 </li>
                 <li>
                     <a href="{{ site.url_subnav_betterplace }}" target="_blank" class="db">
-                        <span class="db f4 b blue-4">
+                        <span class="db f4 b green-4">
                             <span class="underline">Support</span>
                             <span aria-hidden="true">🫶</span>
                         </span>
@@ -147,14 +164,16 @@
                 popovertarget="subnav"
                 popovertargetaction="hide"
                 aria-label="schließen"
-                class="pointer fixed top-0 right-0 f5 blue-4 p0 mr3 mt2-m mr4-m bg-transparent bn"
+                class="pointer fixed top-0 right-0 f5 green-4 p0 mr3 mt2-m mr4-m bg-transparent bn"
             >
                 <span aria-hidden="true">×</span>
             </button>
         </div>
-        <button popovertarget="dateinfo" class="pointer fixed right-0 bottom-0 z-1 db lh-copy ph3 pv1 m3 bg-blue-9 bn br5">
-            {{ site.date_next }} <span aria-hidden="true">🍹</span><span class="clip">im</span> {{ site.date_place }}
-        </button>
+        <div class="fixed top-0 left-0 right-0 z-1 flex justify-center">
+            <button popovertarget="dateinfo" class="pointer db f4-m lh-copy pl4 pr2 pv1 m3 glass br5">
+                🗓️ {{ site.date_next }} — <span class="clip">im</span> {{ site.date_place }} <span aria-hidden="true" class="ph1 bg-yellow-10 br5">→</span>
+            </button>
+        </div>
         <div
             id="dateinfo"
             aria-modal="true"
@@ -162,7 +181,7 @@
             popover
         >
             <h2 class="f3 f4-m lh-title b mt4">
-                <span class="db blue-4">{{ site.date_title }}</span>
+                <span class="db green-4">{{ site.date_title }}</span>
                 Pixeltalk #{{ site.date_idx }}
                 am {{ site.date_next }}
                 im <a href="{{ site.date_place_url }}" target="_blank" class="underline">{{ site.date_place }}</a>
@@ -174,14 +193,14 @@
                 popovertarget="dateinfo"
                 popovertargetaction="hide"
                 aria-label="schließen"
-                class="pointer fixed top-0 right-0 f5 blue-4 p0 mr3 mt2-m mr4-m bg-transparent bn"
+                class="pointer fixed top-0 right-0 f5 green-4 p0 mr3 mt2-m mr4-m bg-transparent bn"
             >
                 <span aria-hidden="true">×</span>
             </button>
         </div>
         <div
             class="eyes subgrid col-full justify-center items-center w-100"
-            style="height: 77dvh"
+            style="height: 75dvh"
         >
             <div
                 class="eyes__hover eyes__hover--1 start-1 end-5 row-start-1 h-100"
@@ -211,7 +230,7 @@
                 class="eyes__hover eyes__hover--9 start-9 end-last row-start-3 h-100"
             ></div>
             <div
-                class="icon start-3 start-7-m end-11 end-10-m row-start-2 row-end-2 vh-50"
+                class="icon start-3 start-4-m end-11 end-10-m row-start-2 row-end-2 vh-50"
             >
                 <svg class="eyes" viewBox="0 0 251.761 302.022">
                     <g id="outlines">
@@ -262,9 +281,9 @@
             </div>
         </div>
         <div
-            class="subgrid col-full relative f2 f5-m lh-title black pv5 bg-blue-11"
+            class="subgrid col-full relative f2 f5-m lh-title black pt5 pb6 bg-green-11"
         >
-            <div class="start-2 end-11 end-10-m">
+            <div class="start-2 end-11 start-3-m end-11-m">
                 <h1 id="info" class="b mt0 mb3">
                     <strong>{{ site.title }}</strong> &horbar; {{ site.description }}
                 </h1>
@@ -273,7 +292,7 @@
                 </p>
             </div>
             <div
-                class="start-2 end-11 flex flex-wrap items-baseline g2 gh4-m mt5 mt6-m"
+                class="start-2 end-12 flex flex-wrap items-baseline g2 gh4-m mt5 mt6-m"
             >
                 <h2 id="archiv" class="w-100 w-auto-m lh-solid b m0"><strong>Rückblick</strong></h2>
                 
@@ -285,7 +304,7 @@
                                 class="pointer f1 f4-m tl ph3 bg-white bn br6"
                             >
                                 {{ meetup.title }}
-                                <span class="blue-4">#{{ meetup.idx }}</span>
+                                <span class="green-4">#{{ meetup.idx }}</span>
                             </button>
                         </li>
                     {% endfor %}
@@ -298,7 +317,7 @@
                         popover
                     >
                         <h2 class="f3 f4-m lh-title b mt4">
-                            <span class="db blue-4">{{ meetup.title }}</span>
+                            <span class="db green-4">{{ meetup.title }}</span>
                             Pixeltalk #{{ meetup.idx }} am {{ meetup.date | date: "%d.%m.%Y" }} bei <a href="{{ meetup.placeurl }}" target="_blank" class="underline">{{ meetup.place }}</a>
                         </h2>
                         <div class="richtext f1 f3-m">
@@ -308,14 +327,14 @@
                             popovertarget="archive{{ meetup.idx }}"
                             popovertargetaction="hide"
                             aria-label="schließen"
-                            class="pointer fixed top-0 right-0 f5 blue-4 p0 mr3 mt2-m mr4-m bg-transparent bn"
+                            class="pointer fixed top-0 right-0 f5 green-4 p0 mr3 mt2-m mr4-m bg-transparent bn"
                         >
                             <span aria-hidden="true">×</span>
                         </button>
                     </div>
                 {% endfor %}
             </div>
-            <p class="start-2 end-12 end-last-m f1 mt5">
+            <p class="start-2 end-12 start-3-m end-last-m f1 mt5">
                 Initiert und organisiert von
                 <a
                     href="https://www.diesuperpixel.de"
