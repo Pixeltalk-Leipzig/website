@@ -30,12 +30,12 @@ url_subnav_github: "https://github.com/Pixeltalk-Leipzig/website/discussions"
 url_subnav_linkedin: "https://www.linkedin.com/events/7495458932635881473/"
 url_subnav_betterplace: "https://www.goodcrowd.org/pixeltalk-unser-meetup-2026-moeglich-zu-machen"
 
-date_idx: 21
-date_next: Mi 28.10. 19:00
-date_place: robole
-date_place_url: https://robole.de
-date_title: Open Floor
-date_desc: "Das Pixeltalk Meetup geht in die nächste Runde. Nach einer längeren Sommerpause starten wir ohne konkretes Thema oder Vortrag. Dafür mit mehr Zeit für alle Themen, die euch gerade unter den Nägeln brennen: Wie kommuniziere ich Sicherheitslücken proaktiv? Was ist ein guter Aufbau im Figma zur Übergabe an Entwickelnde? Brauche ich 2027 überhaupt noch JavaScript für Websites? Wie kann ich KI in der EU nutzen? Und ist es überhaupt fair, KI für mich arbeiten zu lassen?"
+date_idx: 22
+date_next: Mi 25.11. 19:00
+date_place: HawaiiF3
+date_place_url: https://hawaiif3.de/
+date_title: Pixeltalk × Kirby Meetup Leipzig
+date_desc: "Das Kirby Meetup geht in die 4. Runde. Themen folgen …"
 
 collections:
   meetups:
