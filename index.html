@@ -53,6 +53,20 @@
                 cursor: url("cursor.svg") 10 10, default;
             }
 
+            .eyes .kirby-shift {
+                transform: translate(
+                    calc(var(--eyes-left, 0%) * 0.4),
+                    calc(var(--eyes-top, 0%) * 0.35)
+                );
+            }
+
+            .eyes .kirby-glow {
+                transform: translate(
+                    calc(var(--cx) + var(--eyes-left, 0%)),
+                    calc(var(--cy) + var(--eyes-top, 0%) * 0.65)
+                );
+            }
+
             .eyes .pupils {
                 --eyes-top: -20%;
                 --eyes-left: 0%;
@@ -281,6 +295,25 @@
                             rx="22.394"
                             ry="58.956"
                         />
+                        <defs>
+                            <radialGradient id="kirby-glow">
+                                <stop offset="0" stop-color="#fff" stop-opacity="0.9" />
+                                <stop offset="1" stop-color="#fff" stop-opacity="0" />
+                            </radialGradient>
+                            <mask id="kirby-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="252" height="302">
+                                <rect class="kirby-glow transition-small" x="-28" y="-35" width="56" height="70" fill="url(#kirby-glow)" style="--cx: 59.846px; --cy: 151.011px" />
+                                <rect class="kirby-glow transition-small" x="-28" y="-35" width="56" height="70" fill="url(#kirby-glow)" style="--cx: 193.787px; --cy: 151.011px" />
+                            </mask>
+                        </defs>
+                        <g mask="url(#kirby-mask)">
+                        <g class="kirby-shift transition-small">
+                        <g id="kirby" fill="#fff" transform="translate(49.346 138.76) scale(0.5833)">
+                            <path d="M18 0l18 10.5v21L18 42 0 31.5v-21L18 0zM2 11.7v18.6l16 9.3 16-9.3V11.7L18 2.4 2 11.7z" />
+                            <path d="M26 21l-5 2.6v.4h5v4H10v-4h5v-.4L10 21v-5l8 4.3 8-4.3" />
+                        </g>
+                        <use href="#kirby" x="133.941" />
+                        </g>
+                        </g>
                     </g>
                 </svg>
             </div>
