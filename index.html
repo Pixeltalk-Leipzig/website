@@ -34,6 +34,14 @@
                 border-radius: 5rem;
             }
 
+            .dateinfo-button {
+                left: 0;
+                right: 0;
+                margin-inline: auto;
+                width: fit-content;
+                max-width: calc(100% - 2rem);
+            }
+
             .glass {
                 background-color: rgb(255 255 255 / 0.35);
                 border: 1px solid rgb(255 255 255 / 0.6);
@@ -169,11 +177,9 @@
                 <span aria-hidden="true">×</span>
             </button>
         </div>
-        <div class="fixed top-0 left-0 right-0 z-1 flex justify-center">
-            <button popovertarget="dateinfo" class="pointer db f4-m lh-copy pl4 pr2 pv1 m3 glass br5">
-                {{ site.date_next }} — <span class="clip">im</span> {{ site.date_place }} <span aria-hidden="true" class="ph1 bg-yellow-10 br5">→</span>
-            </button>
-        </div>
+        <button popovertarget="dateinfo" class="dateinfo-button pointer fixed top-0 z-1 db f4-m lh-copy pl4 pr2 pv1 mt3 glass br5">
+            {{ site.date_next }} — <span class="clip">im</span> {{ site.date_place }} <span aria-hidden="true" class="ph1 bg-yellow-10 br5">→</span>
+        </button>
         <div
             id="dateinfo"
             aria-modal="true"
