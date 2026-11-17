@@ -27,7 +27,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pixeltalk.io" # the base hostname & protocol for your site, e.g. http://example.com
 url_subnav_signal: "https://signal.group/#CjQKIDbTfUYmRkmbXcUgmYd4pkv1EOSoT416FxAkJy60yZrJEhCaTd-P8J5Xd8WxQVEF-vxn"
 url_subnav_github: "https://github.com/Pixeltalk-Leipzig/website/discussions"
-url_subnav_linkedin: "https://www.linkedin.com/events/7495458932635881473/"
+url_subnav_linkedin: "https://www.linkedin.com/events/7528550168942747648/"
 url_subnav_betterplace: "https://www.goodcrowd.org/pixeltalk-unser-meetup-2026-moeglich-zu-machen"
 
 date_idx: 22
@@ -47,11 +47,11 @@ collections:
 
 # Exclude from processing.
 # The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
+# Any item listed under the `exclude:` will be automatically added to
 # the internal "default list".
 #
 # Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
+# their entries' in the `include:` list.
 #
 # exclude:
 #   - .sass-cache/
@@ -63,4 +63,4 @@ collections:
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
-#   - vendor/ruby/
+#   - vendor/vendor
